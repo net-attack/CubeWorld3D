@@ -1,12 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeWorld_unityProject.Plugins", "CubeWorld_unityProject.Plugins.csproj", "{3534B61E-77F7-3E41-E83E-A1FBCCAB4001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeWorld_unityProject", "CubeWorld_unityProject.csproj", "{3C5884C7-BA16-F956-F423-CE7FF96F45DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3534B61E-77F7-3E41-E83E-A1FBCCAB4001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3534B61E-77F7-3E41-E83E-A1FBCCAB4001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3534B61E-77F7-3E41-E83E-A1FBCCAB4001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3534B61E-77F7-3E41-E83E-A1FBCCAB4001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5884C7-BA16-F956-F423-CE7FF96F45DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5884C7-BA16-F956-F423-CE7FF96F45DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5884C7-BA16-F956-F423-CE7FF96F45DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5884C7-BA16-F956-F423-CE7FF96F45DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
