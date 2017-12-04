@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenueButtons : MonoBehaviour {
 
@@ -11,7 +12,7 @@ public class MenueButtons : MonoBehaviour {
     public void LoadScene()
     {
         loadingImage.SetActive(true);
-        Application.LoadLevel(1);
+        SceneManager.LoadScene(1);
     }
 }
 
