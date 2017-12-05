@@ -226,6 +226,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Level1\Scripts\LandscapeGen.cs" />
+    <Compile Include="Assets\Level1\Scripts\PlayerActions.cs" />
+    <Compile Include="Assets\Level1\Scripts\setPlayer.cs" />
     <Compile Include="Assets\MainMenue\MenueButtons.cs" />
   </ItemGroup>
   <ItemGroup>
