@@ -17,11 +17,12 @@ public class PlayerActions : MonoBehaviour {
     public float MinVibration = 1;//the minimum vibration power
     public float MaxVibration = 1;//the maximum vibration power
 
-
+    public Animator aniAxt;
     // Use this for initialization
     void Start()
     {
         tools = new ToolList(2, axtPrefab, schaufelPrefab);
+        aniAxt = axtPrefab.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -43,8 +44,12 @@ public class PlayerActions : MonoBehaviour {
         }
         else if (Input.GetMouseButtonDown(0)) // backwards
         {
-           
-            axtPrefab.transform.eulerAngles = new Vector3(Random.Range(MinVibration, MaxVibration), Random.Range(MinVibration, MaxVibration), Random.Range(MinVibration, MaxVibration)); 
+
+            aniAxt.Play("Axtanimation");
+            
+            
+
+
 
             Debug.Log("CLick");
         }
